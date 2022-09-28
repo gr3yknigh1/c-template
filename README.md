@@ -7,6 +7,8 @@ Sample C project.
 - GCC compilator
 - GNU Make
 
+> NOTE: It's possible to replace compilator. Just change `CC` variable in `Makefile` and be sure all flags was matched by your compilator.
+
 ## Run
 
 1. Build project
