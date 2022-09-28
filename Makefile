@@ -19,7 +19,7 @@ all: main
 
 run:
 	[ -d $(BUILD_DIR) ] || make all
-	
+
 	$(PROG)
 
 main: $(OBJS)
