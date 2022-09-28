@@ -4,7 +4,7 @@ Sample project for C.
 
 ## Run
 
-1. Build project:
+1. Build project
 
 ```shell
 make
