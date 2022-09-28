@@ -1,6 +1,11 @@
 # c template
 
-Sample project for C.
+Sample C project.
+
+## Requirements
+
+- GCC compilator
+- GNU Make
 
 ## Run
 
@@ -13,7 +18,7 @@ make
 2. Run
 
 ```shell
-make run 
+make run
 ```
 
 OR
