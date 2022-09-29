@@ -24,7 +24,7 @@ run:
 
 main: $(OBJS)
 	[ -d $(BUILD_DIR) ] || mkdir -p $(BUILD_DIR)
-	$(CC) $(COMP_FLAGS) $(OBJS) -o $(PROG)
+	$(CC) $(CFLAGS) $(OBJS) -o $(PROG)
 
 $(OBJS): $(SOURCE) $(HEADERS)
 	[ -d $(OBJS_DIR) ] || mkdir -p $(OBJS_DIR)
