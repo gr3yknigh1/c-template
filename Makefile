@@ -2,15 +2,14 @@ CC         = gcc
 CFLAGS     = -g -Wall -Werror
 RM         = rm -rf
 
-BUILD_DIR  = build
-PROG       = $(BUILD_DIR)/main
-
-OBJS_DIR   = $(BUILD_DIR)/objs
-OBJS       = *.o
-
 SOURCE_DIR = src
 SOURCE     = $(SOURCE_DIR)/*.c
 HEADERS    = $(SOURCE_DIR)/*.h
+
+BUILD_DIR  = build
+PROG       = $(BUILD_DIR)/main
+
+OBJS       = *.o
 
 
 default: all
